@@ -1,0 +1,132 @@
+.add-staff-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f4f4f9;
+    border: 1px solid #e1e1e1;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .add-staff-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  form div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  select,
+  button {
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="date"]:focus,
+  select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+  }
+  
+  input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  .role-options {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  
+  button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  select {
+    background-color: #fff;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  input[type="radio"] {
+    margin-top: 5px;
+  }
+  
+  form div input[type="text"],
+  form div input[type="email"],
+  form div input[type="date"] {
+    border: 2px solid #ddd;
+  }
+  
+  form div select {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  form div select:hover {
+    background-color: #f0f8ff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .add-staff-container {
+      padding: 20px;
+      max-width: 100%;
+    }
+  
+    button[type="submit"] {
+      width: 100%;
+    }
+  
+    .role-options {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  

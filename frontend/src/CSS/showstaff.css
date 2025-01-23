@@ -1,0 +1,42 @@
+h1 {
+  font-size: 36px; /* Set font size */
+  font-weight: bold; /* Make the text bold */
+  color: #ffffff; /* Set text color */
+  text-align: center; /* Center-align the text */
+  margin: 20px 0; /* Add vertical spacing around the title */
+  font-family: 'Arial', sans-serif; /* Set font family */
+  text-transform: uppercase; /* Transform text to uppercase */
+  letter-spacing: 2px; /* Add spacing between letters */
+}
+
+/* Style for table header and data cells */
+.show-staff-container table {
+  width: 70%; /* Reduce table width to 80% of the container */
+  margin: 0 auto; /* Center the table horizontally */
+}
+
+.show-staff-container table th,
+.show-staff-container table td {
+  padding: 12px 15px;
+  border: 1px solid #838383;
+  text-align: left;
+}
+
+.show-staff-container table th {
+  background-color: #E3F2FD ;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.show-staff-container table td.actions {
+  width: 200px; /* Adjust this value as needed to increase space */
+  text-align: center; /* Center-align the action buttons */
+}
+
+.show-staff-container table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.show-staff-container table tr:hover {
+  background-color: #f1f1f1;
+}

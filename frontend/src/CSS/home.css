@@ -1,0 +1,101 @@
+.home-container {
+  background-image: url('../../public/homephoto.png'); /* Path to the image */
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-attachment: fixed; /* Fix the background during scrolling */
+  min-height: 100vh; /* Make sure the container takes up the full viewport height */
+  color: rgb(24, 23, 23); /* Set text color to white for better visibility on dark background */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the content vertically */
+  align-items: center; /* Center the content horizontally */
+  text-align: center; /* Center text */
+  padding: 20px;
+  position: relative; /* To make sure the background is correctly fixed */
+}
+
+.welcome-message {
+  position: relative; /* To create a positioned context for the background box */
+  padding: 30px;
+  border-radius: 10px; /* Optional: Rounded corners for the box */
+  background-color: white; /* White background */
+  background-color: rgba(39, 39, 39, 0.705); /* Semi-transparent white */
+  backdrop-filter: blur(2px); /* Apply blur effect */
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2); /* Optional: subtle shadow for separation */
+  
+}
+
+.welcome-message h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.welcome-message p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color :#ffffff
+}
+
+.admin-panel-button {
+  position: absolute;
+  top: 30px; /* Adjust top position */
+  right: 20px; /* Adjust right position */
+}
+
+.admin-panel-button a {
+  font-size: 1.2rem;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.admin-panel-button a:hover {
+  background-color: #ffc506;
+}
+
+
+.admin-panel-button2 {
+  position: absolute;
+  top: 30px; /* Adjust top position */
+  left: 20px; /* Adjust right position */
+}
+
+.admin-panel-button2 a {
+  font-size: 1.2rem;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.admin-panel-button2 a:hover {
+  background-color: #ffc506;
+}
+
+
+
+.admin-panel-button3 {
+  position: absolute;
+  top: 50px; /* Adjust top position */
+  right: 50px; /* Adjust right position */
+}
+
+.admin-panel-button3 a {
+  font-size: 1.2rem;
+  background-color: #585858;
+  padding: 10px 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.admin-panel-button3 a:hover {
+  background-color: #ffc506;
+}
+
+

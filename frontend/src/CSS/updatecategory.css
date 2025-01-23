@@ -1,0 +1,74 @@
+/* updatecategory.css */
+
+.update-category-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.update-category-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.update-category-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.update-category-container label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.update-category-container input,
+.update-category-container select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.update-category-container input:focus,
+.update-category-container select:focus {
+    border-color: #007bff;
+}
+
+.update-category-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.update-category-container button:hover {
+    background-color: #0056b3;
+}
+
+.update-category-container button:active {
+    background-color: #004085;
+}
+
+.update-category-container div {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,87 @@
+.register-admin-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-admin-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .register-admin-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-admin-form div {
+    margin-bottom: 15px;
+  }
+  
+  .register-admin-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .register-admin-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .register-admin-form button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .register-admin-form button:hover {
+    background-color: #218838;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .success-message {
+    color: green;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+
+  .login-button1 {
+    position: absolute;
+    top: 450px; /* Adjust top position */
+    right: 915px; /* Adjust right position */
+  }
+  
+  .login-button1 a {
+    font-size: 1rem; /* Increased font size */
+    background-color: #ffffff;
+    padding: 5px 10px; /* Increased padding for larger button */
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .login-button1 a:hover {
+    background-color: #ffc506;
+  }
+

@@ -1,0 +1,54 @@
+
+.add-category-container {
+  background-image: url('../../public/addproductimage.png');
+  max-width: 600px;
+  margin: 200px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  
+  }
+  
+  .add-category-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .add-category-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-category-container form div {
+    margin-bottom: 15px;
+  }
+  
+  .add-category-container form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .add-category-container form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-category-container form button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-category-container form button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,93 @@
+body {
+  background: url('../../public/addproductimage.png') center/cover no-repeat fixed;
+}
+
+h1 {
+  font-size: 36px; /* Set font size */
+  font-weight: bold; /* Make the text bold */
+  color: #ffffff; /* Set text color */
+  text-align: center; /* Center-align the text */
+  margin: 20px 0; /* Add vertical spacing around the title */
+  font-family: 'Arial', sans-serif; /* Set font family */
+  text-transform: uppercase; /* Transform text to uppercase */
+  letter-spacing: 2px; /* Add spacing between letters */
+}
+
+
+
+/* Container for the form */
+.add-product-container {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Heading styling */
+.add-product-container h1 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form elements styling */
+.add-product-container label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+  text-align: left;
+}
+
+.add-product-container input,
+.add-product-container select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.price-input-container {
+  position: relative;
+}
+
+.price-input-container span {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+}
+
+.price-input-container input {
+  padding-left: 30px;
+}
+
+.add-product-container button {
+  width: 100%;
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-product-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Navigation buttons styling */
+.admin-panel-button,
+.admin-panel-button2 {
+  margin-top: 10px;
+}

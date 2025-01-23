@@ -1,0 +1,206 @@
+/* updatestaff.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Container styling */
+.update-staff-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.update-staff-container h1 {
+    text-align: center;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label styling */
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Input fields */
+form input[type="text"],
+form input[type="email"],
+form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Radio button styles */
+form input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Role label styling */
+form div label {
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+/* Button styles */
+form button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .update-staff-container {
+        padding: 15px;
+    }
+
+    form label {
+        font-size: 14px;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="date"] {
+        font-size: 12px;
+    }
+
+    form button[type="submit"] {
+        font-size: 14px;
+    }
+}
+/* updatestaff.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Container styling */
+.update-staff-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.update-staff-container h1 {
+    text-align: center;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label styling */
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Input fields */
+form input[type="text"],
+form input[type="email"],
+form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Radio button styles */
+form input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Role label styling */
+form div label {
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+/* Button styles */
+form button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .update-staff-container {
+        padding: 15px;
+    }
+
+    form label {
+        font-size: 14px;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="date"] {
+        font-size: 12px;
+    }
+
+    form button[type="submit"] {
+        font-size: 14px;
+    }
+}
+/* Style specifically for the id within the h1 */
+.small-id {
+    font-size:small; /* Makes the text smaller */
+    color: #555; /* Changes the color to a softer gray */
+    font-weight: normal; /* Makes the font weight lighter */
+}

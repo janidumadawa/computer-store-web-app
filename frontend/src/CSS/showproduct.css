@@ -1,0 +1,82 @@
+body {
+  background: url('../../public/addproductimage.png') center/cover no-repeat fixed;
+}
+
+h1 {
+  font-size: 36px; /* Set font size */
+  font-weight: bold; /* Make the text bold */
+  color: #ffffff; /* Set text color */
+  text-align: center; /* Center-align the text */
+  margin: 20px 0; /* Add vertical spacing around the title */
+  font-family: 'Arial', sans-serif; /* Set font family */
+  text-transform: uppercase; /* Transform text to uppercase */
+  letter-spacing: 2px; /* Add spacing between letters */
+}
+
+
+
+/* Style for table header and data cells */
+.show-product-container table {
+  width: 70%; /* Reduce table width to 80% of the container */
+  margin: 0 auto; /* Center the table horizontally */
+}
+
+.show-product-container table th,
+.show-product-container table td {
+  padding: 8px 10px; /* Reduced padding for a more compact table */
+  border: 1px solid #838383;
+  text-align: left;
+}
+
+/* Header styling for table */
+.show-product-container table th {
+  background-color: #b9ffbf;
+  color: #000;
+  font-weight: bold;
+}
+
+/* Row styling for alternating colors */
+.show-product-container table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect for table rows */
+.show-product-container table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Styling for action buttons (update and delete) */
+.update-btn,
+.delete-btn {
+  color: white;
+  border: none;
+  padding: 6px 10px; /* Reduced padding to make buttons more compact */
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Update button specific styling */
+.update-btn {
+  background-color: #28a745;
+}
+
+.update-btn:hover {
+  background-color: #218838;
+}
+
+/* Delete button specific styling */
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+/* Center-align and spacing for navigation buttons */
+.admin-panel-button,
+.admin-panel-button2 {
+  margin-top: 10px; /* Reduced margin for a more compact layout */
+  text-align: center;
+}
